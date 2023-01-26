@@ -1,0 +1,6 @@
+
+//to set env var
+export PATH=$PATH:$(go env GOPATH)/bin
+
+//to generate exe based on os
+GOOS=windows GOARCH=amd64 go build main.go 
